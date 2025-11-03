@@ -1,0 +1,12 @@
+WAREHOUSE: Targu Mures Central
+
+Processed stock movements: 1
+
+SKU      | Name          | Stock  | Status 
+----------------------------------------
+HAM-100  | Hammer 16oz   | 65     | OK     
+NAI-50   | Nails 50mm    | 90     | OK     
+GLV-M    | Work Gloves M | 25     | REORDER
+----------------------------------------
+Total products: 3
+Products below reorder: 1

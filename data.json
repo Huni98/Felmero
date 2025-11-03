@@ -1,0 +1,20 @@
+{
+  "warehouse": {
+    "id": "WH-RO-TGM",
+    "name": "Targu Mures Central"
+  },
+  "suppliers": [
+    { "id": "SUP-1", "name": "Transilvania Tools SRL", "rating": 4.2 },
+    { "id": "SUP-2", "name": "EuroParts SA", "rating": 3.9 }
+  ],
+  "products": [
+    { "sku": "HAM-100", "name": "Hammer 16oz", "supplierId": "SUP-1", "stock": 65, "reorderPoint": 20 },
+    { "sku": "NAI-50", "name": "Nails 50mm", "supplierId": "SUP-2", "stock": 90, "reorderPoint": 100 },
+    { "sku": "GLV-M", "name": "Work Gloves M", "supplierId": "SUP-1", "stock": 25, "reorderPoint": 30 }
+  ],
+  "stockMovements": [
+    { "id": "M-001", "type": "IN", "sku": "HAM-100", "qty": 10 },
+    { "id": "M-002", "type": "OUT", "sku": "NAI-50", "qty": 20 },
+    { "id": "M-003", "type": "OUT", "sku": "GLV-M", "qty": 5 }
+  ]
+}
